@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Klear</string>
+    <string name="your_waste_our_responsibility">your waste, our responsibility</string>
+    <string name="title">klear</string>
+    <string name="get_started">Get Started</string>
+    <string name="login">Login</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="create_account">Create Account</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="proceed_with_google">Proceed with Google</string>
 </resources>
