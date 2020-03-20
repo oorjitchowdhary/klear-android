@@ -11,7 +11,18 @@
     <string name="name">Name</string>
     <string name="create_account">Create Account</string>
     <string name="continue_with_google">Continue with Google</string>
-    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="facing_any_inconvenience">Facing any inconvenience?</string>
     <string name="sign_up">Sign up</string>
+    <string name="contact_us">Contact Us</string>
     <string name="proceed_with_google">Proceed with Google</string>
+    <string name="dashboard_heading">Namaste,\nWould you like to save the environment today?</string>
+    <string name="sell_your_waste">Sell your Waste</string>
+    <string name="only_recyclable_doe">only recyclable doe</string>
+    <string name="create">Create</string>
+    <string name="best_out_of_waste">best out of waste</string>
+    <string name="donate">Donate</string>
+    <string name="help">help help help help</string>
+    <string name="profile">Profile</string>
+    <string name="check_your_score">check your score</string>
 </resources>
