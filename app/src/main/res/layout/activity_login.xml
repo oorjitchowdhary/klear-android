@@ -39,7 +39,6 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/email"
-            android:id="@+id/email"
             app:boxCornerRadiusTopStart="5dp"
             app:boxCornerRadiusTopEnd="5dp"
             app:boxCornerRadiusBottomStart="5dp"
@@ -50,6 +49,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/email"
                 android:inputType="textEmailAddress"
                 android:fontFamily="@font/productsans"
                 android:textSize="20sp"/>
@@ -61,7 +61,6 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/password"
-            android:id="@+id/password"
             app:boxCornerRadiusTopStart="5dp"
             app:boxCornerRadiusTopEnd="5dp"
             app:boxCornerRadiusBottomStart="5dp"
@@ -73,6 +72,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/password"
                 android:inputType="textPassword"
                 android:fontFamily="@font/productsans"
                 android:textSize="20sp"/>
@@ -119,6 +119,7 @@
             app:icon="@drawable/google_g"
             app:iconTint="#bf000000"
             android:text="@string/continue_with_google"
+            android:onClick="googleLogIn"
             android:textColor="#BF000000"
             android:textSize="14sp"
             app:cornerRadius="18dp"/>

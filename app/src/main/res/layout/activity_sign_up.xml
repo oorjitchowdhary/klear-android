@@ -40,7 +40,6 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/name"
-            android:id="@+id/name"
             app:boxCornerRadiusTopStart="5dp"
             app:boxCornerRadiusTopEnd="5dp"
             app:boxCornerRadiusBottomStart="5dp"
@@ -50,6 +49,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/name"
                 android:inputType="textPersonName"
                 android:fontFamily="@font/productsans"
                 android:textSize="20sp"/>
@@ -61,7 +61,6 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/email"
-            android:id="@+id/email"
             app:boxCornerRadiusTopStart="5dp"
             app:boxCornerRadiusTopEnd="5dp"
             app:boxCornerRadiusBottomStart="5dp"
@@ -72,6 +71,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/email"
                 android:inputType="textEmailAddress"
                 android:fontFamily="@font/productsans"
                 android:textSize="20sp"/>
@@ -83,7 +83,6 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/password"
-            android:id="@+id/password"
             app:boxCornerRadiusTopStart="5dp"
             app:boxCornerRadiusTopEnd="5dp"
             app:boxCornerRadiusBottomStart="5dp"
@@ -95,6 +94,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/password"
                 android:inputType="textPassword"
                 android:fontFamily="@font/productsans"
                 android:textSize="20sp"/>
@@ -143,6 +143,7 @@
             android:text="@string/proceed_with_google"
             android:textColor="#BF000000"
             android:textSize="14sp"
+            android:onClick="googleSignIn"
             app:cornerRadius="18dp"/>
 
         <LinearLayout
