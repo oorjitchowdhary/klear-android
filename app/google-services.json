@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "343014538021",
+    "firebase_url": "https://klear-android.firebaseio.com",
+    "project_id": "klear-android",
+    "storage_bucket": "klear-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343014538021:android:f706ab51cb9272964778cc",
+        "android_client_info": {
+          "package_name": "com.syncx.klear"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343014538021-hj4o6haeqcv22iv3pemksnnvj2fp2ukf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.syncx.klear",
+            "certificate_hash": "d5c55f5d6d9f4d4b121078a1fc5d66ec47e52c33"
+          }
+        },
+        {
+          "client_id": "343014538021-lob26nbjmi1p84cv92ioegb5c8nri98b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPNa4w4SpZ3O_s37t57ukqLeUmOrJg-KA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343014538021-lob26nbjmi1p84cv92ioegb5c8nri98b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

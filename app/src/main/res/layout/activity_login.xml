@@ -39,6 +39,7 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/email"
+            android:id="@+id/email"
             app:boxCornerRadiusTopStart="5dp"
             app:boxCornerRadiusTopEnd="5dp"
             app:boxCornerRadiusBottomStart="5dp"
@@ -60,6 +61,7 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/password"
+            android:id="@+id/password"
             app:boxCornerRadiusTopStart="5dp"
             app:boxCornerRadiusTopEnd="5dp"
             app:boxCornerRadiusBottomStart="5dp"
@@ -90,7 +92,8 @@
             app:cornerRadius="60dp"
             android:insetRight="0dp"
             android:insetBottom="0dp"
-            android:layout_gravity="end"/>
+            android:layout_gravity="end"
+            android:onClick="logIn"/>
 
     </LinearLayout>
 
